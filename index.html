@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mijn Soundboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Mijn Soundboard</h1>
+      <p>Open deze pagina op elke computer en speel je eigen geluiden af.</p>
+    </div>
+    <div class="controls">
+      <label class="volume-label">
+        Volume
+        <input id="volume" type="range" min="0" max="1" step="0.01" value="1" />
+      </label>
+      <button id="stopAll" class="danger">Stop alles</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input id="search" type="search" placeholder="Zoek geluid..." autocomplete="off" />
+      <select id="categoryFilter" aria-label="Categorie filter">
+        <option value="all">Alle categorieën</option>
+      </select>
+    </section>
+
+    <section id="board" class="board" aria-live="polite"></section>
+
+    <section class="help">
+      <h2>Geluiden toevoegen</h2>
+      <p>
+        Upload je MP3/WAV-bestanden naar de map <strong>sounds</strong> en pas daarna
+        <strong>sounds.json</strong> aan. Gebruik korte bestandsnamen zonder spaties, bijvoorbeeld
+        <code>applaus.mp3</code>.
+      </p>
+    </section>
+  </main>
+
+  <template id="soundButtonTemplate">
+    <button class="sound-button" type="button">
+      <span class="emoji"></span>
+      <span class="title"></span>
+      <span class="meta"></span>
+    </button>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

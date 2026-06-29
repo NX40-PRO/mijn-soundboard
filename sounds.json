@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Test beep",
+    "file": "sounds/test-beep.wav",
+    "category": "Test",
+    "emoji": "🔔",
+    "shortcut": "1"
+  }
+]
