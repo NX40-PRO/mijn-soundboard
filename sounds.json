@@ -1,9 +1,58 @@
 [
   {
-    "title": "Test beep",
-    "file": "sounds/test-beep.wav",
-    "category": "Test",
-    "emoji": "🔔",
+    "title": "Papier hier",
+    "file": "sounds/gijs-01-papier-hier.mp3",
+    "category": "Gijs",
+    "emoji": "🗑️",
     "shortcut": "1"
+  },
+  {
+    "title": "Dankuwel dankuwel",
+    "file": "sounds/gijs-02-dankuwel-dankuwel.mp3",
+    "category": "Gijs",
+    "emoji": "🙏",
+    "shortcut": "2"
+  },
+  {
+    "title": "Vooruit, ik vind het zo lekker jongens",
+    "file": "sounds/gijs-03-vooruit-ik-vind-het-zo-lekker-jongens.mp3",
+    "category": "Gijs",
+    "emoji": "😄",
+    "shortcut": "3"
+  },
+  {
+    "title": "Oh wat lekker",
+    "file": "sounds/gijs-04-oh-wat-lekker.mp3",
+    "category": "Gijs",
+    "emoji": "😋",
+    "shortcut": "4"
+  },
+  {
+    "title": "Danke schön",
+    "file": "sounds/gijs-05-danke-schon.mp3",
+    "category": "Gijs",
+    "emoji": "🤝",
+    "shortcut": "5"
+  },
+  {
+    "title": "Hallo hallo",
+    "file": "sounds/gijs-06-hallo-hallo.mp3",
+    "category": "Gijs",
+    "emoji": "👋",
+    "shortcut": "6"
+  },
+  {
+    "title": "Oeh pardon",
+    "file": "sounds/gijs-07-scheet-oeh-pardon.mp3",
+    "category": "Gijs",
+    "emoji": "💨",
+    "shortcut": "7"
+  },
+  {
+    "title": "Ligt er hier papier op de grond?",
+    "file": "sounds/gijs-08-hee-hallo-ligt-er-hier-papier-op-de-grond.mp3",
+    "category": "Gijs",
+    "emoji": "🧻",
+    "shortcut": "8"
   }
 ]
